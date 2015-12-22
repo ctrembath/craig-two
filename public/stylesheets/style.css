@@ -4,61 +4,61 @@
 }
 
 #title {
-    font-size: 9rem;
-    opacity: .8;
+  font-size: 9rem;
+  opacity: .8;
 }
 
 #names {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 div.intro {
-    position: absolute;
-    display: block;
-    opacity: 1;
-    z-index: 100;
-    width: 37rem;
+  position: absolute;
+  display: block;
+  opacity: 1;
+  z-index: 100;
+  width: 37rem;
 }
 
 p.introparagraph{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 1.50rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.50rem;
 }
 
 
 p#craigintank {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 img#sharkgif{
-    opacity: .8;
-    z-index: -100;
+  opacity: .8;
+  z-index: -100;
 }
 
 img#craigcontemplates{
-    opacity: .8;
-    position: relative;
-    float: right;
+  opacity: .8;
+  position: relative;
+  float: right;
 }
 
 
 #wallsign {
-    height: 70%;
-    width: 60%;
-    float: left;
-    opacity: .8;
-    z-index: 0;
-    position: relative;
+  height: 70%;
+  width: 60%;
+  float: left;
+  opacity: .8;
+  z-index: 0;
+  position: relative;
 }
 
 
 section {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 div#five {
-    margin-top: 0rem !important;
+  margin-top: 0rem !important;
 }
 
 /*GROW SHARK*/
@@ -67,41 +67,41 @@ div#five {
   width: 300px;
  
   -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
  
 .grow img:hover {
   width: 400px;
   height: 400px;
-   -ms-transform: rotate(-80deg); /* IE 9 */
-    -webkit-transform: rotate(-80deg); /* Chrome, Safari, Opera */
-    transform: rotate(-80deg);
+  -ms-transform: rotate(-80deg); /* IE 9 */
+  -webkit-transform: rotate(-80deg); /* Chrome, Safari, Opera */
+  transform: rotate(-80deg);
 }
 
 #videoFour {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 p.fourthParagraph {
-    margin-top: -20rem;
+  margin-top: -20rem;
 }
 
 video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(tank.jpg) no-repeat;
-    background-size: cover; 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(tank.jpg) no-repeat;
+  background-size: cover; 
 }
 
 .fcliff {
@@ -113,7 +113,6 @@ video#bgvid {
   padding-top: 2rem;
   color: #FCAB10;
   text-shadow: #000000 0 0 35px, #000000 5px 5px 19px;
-
 }
 
 .blink_me {
@@ -128,25 +127,24 @@ video#bgvid {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   color: #ffffff;
-    text-shadow: #000000 0 0 35px, #000000 5px 5px 19px;
+  text-shadow: #000000 0 0 35px, #000000 5px 5px 19px;
   margin-top: -3rem;
   padding-top: 0;
-
 }
 
 video.secondbgvid { 
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(tank.jpg) no-repeat;
-    background-size: cover; 
-    top: 50%;
-    left: 50%;
-    position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(tank.jpg) no-repeat;
+  background-size: cover; 
+  top: 50%;
+  left: 50%;
+  position: absolute;
 }
 
 .calm-SIX {
@@ -159,14 +157,9 @@ video.secondbgvid {
 
 .chillSpan {
   display: inline;
-
   position: relative;
-
   font: 3rem Helvetica, Sans-Serif;
-
   letter-spacing: -5px;
-
   color: rgba(0,0,255,0.5); 
-
 }
 

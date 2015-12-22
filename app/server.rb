@@ -2,19 +2,14 @@ require 'sinatra'
 require 'aws/s3'
 require 'paperclip'
 
-
 set :public_dir, Proc.new { File.join(root, "..", "public") }
 
 get '/' do
-	# S3 settings
 	s3_connect
 	all_files
 	title_name
-
-	# @key = @file.key
 	erb :index
 end
-
 
 private
 
