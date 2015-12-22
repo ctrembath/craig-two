@@ -134,7 +134,7 @@ video#bgvid {
 
 }
 
-video#secondbgvid { 
+video.secondbgvid { 
     min-width: 100%;
     min-height: 100%;
     width: auto;
@@ -145,6 +145,7 @@ video#secondbgvid {
     background: url(tank.jpg) no-repeat;
     background-size: cover; 
     top: 50%;
+    left: 50%;
     position: absolute;
 }
 
