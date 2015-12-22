@@ -31,7 +31,7 @@
 	<div class="row section wall" id="three">
 		<img id="wallsign" src="../assets/images/glassSign.png" />
 		<div class="grow pic">
-			<img id="blingshark" src="../assets/images/blingshark.gif" />
+			<img id="blingshark" src="http://s3.amazonaws.com/plunge/<%= @bling.key%>" />
 		</div>
 	</div>
 
@@ -65,7 +65,7 @@
 
 	<div class="section" id="six">
 		 <video autoplay loop id="secondbgvid" poster="tank.jpg">
-			  <source src="	../assets/video/TankShort.mp4" type="video/mp4">
+			  <source src="http://s3.amazonaws.com/plunge/<%=@tank.key %>" type="video/mp4">
 		 </video>
 		 <div class="small-12 columns">
 
@@ -82,7 +82,7 @@
 						<span class="chillSpan">chilled, chill, calm.</span>
 					</p>
 			</div>
-			<img src="../assets/images/calmcraig.png" class="small-6 columns calmcraig">
+			<img src="http://s3.amazonaws.com/plunge/<%=@chill.key %>" class="small-6 columns calmcraig">
 		</div>
 		 <audio loop id="audio1">
 			 <source src="../assets/audio/craigshortX.mp3" type="audio/mp3">

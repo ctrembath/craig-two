@@ -30,6 +30,8 @@ def title_name
 	@cliff = get_asset('cliff.mp4')
 	@risenfall = get_asset('risefall.mp4')
 	@chill = get_asset('calmcraig.png')
+	@craig_audio = get_asset('craigshortX.mp3')
+	@bling = get_asset('shark.gif')
 end
 
 def all_files
