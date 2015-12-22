@@ -1,22 +1,17 @@
 require 'sinatra'
 require 'aws/s3'
+require 'paperclip'
 
 
 set :public_dir, Proc.new { File.join(root, "..", "public") }
 
-
-# def find_aws_file(title)
-# 	s3_connect
-
-# 	asset = AWS::S3::S3Object.find(title, 'plunge')
-# 	return asset
-# end
-
-
 get '/' do
 	# S3 settings
 	s3_connect
-	# all_files
+	all_files
+	puts @my_bucket
+	@file = get_asset('TankShort.mp4')
+	@key = @file.key.to_s
 	erb :index
 end
 
@@ -27,13 +22,16 @@ def s3_connect
 	AWS::S3::Base.establish_connection!(
 	:access_key_id => ENV['AWS_ACCESS_KEY_ID'],
 	:secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
-	# s3_endpoint: 'eu-west-1'
 )
 end
 
 def all_files
 	s3_connect
-	@my_bucket = AWS::S3::Bucket.find('itching')
-	all_assets = @my_bucket.objects
-	puts all_assets.length
+	@my_bucket = AWS::S3::Bucket.find('plunge')
+end
+
+def get_asset(asset)
+	s3_connect
+	media = AWS::S3::S3Object.find(asset, 'plunge')
+	return media
 end
