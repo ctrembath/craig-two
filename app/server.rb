@@ -11,7 +11,7 @@ get '/' do
 	all_files
 	puts @my_bucket
 	@file = get_asset('TankShort.mp4')
-	@key = @file.key.to_s
+	@key = @file.key
 	erb :index
 end
 
