@@ -22,7 +22,7 @@
 				It wasn't a particularly interesting shark. Still, it was the only shark that had bothered to come up and say hello. Craig sidestepped over to the far wall to read the information about the Bluegrey Carpetshark.
 			</p>
 		</div>
-			<img id="sharkgif" src="../assets/images/shark.gif" />
+			<img id="sharkgif" src="http://s3.amazonaws.com/plunge/<%= @sharkswim.key %>" />
 			<img id="craigcontemplates" src="../assets/images/intro.png" />
 	</div>
 
@@ -39,13 +39,15 @@
 				Sounds familiar, Craig thought. Takes one to know one.<br>
 				He kicked the bottom of the tank suddenly, thoughts of 1999 poured in from all around.<br>
 				It wasn't as if he was a 'bottom-dweller', number 2 in the Official UK Charts is certainly not bottom-dwelling. <br>
-				Number 2 is right beneath the water's surface, the warm shallows of success, one stroke away from breaking the surface and.. <br>
+			</p>
 			</p>
 		</div>
 		<div id="snow">
 			<video width="220" height="180" id="videoFour" class="video4">
 				  <source src="http://s3.amazonaws.com/plunge/<%= @cliff.key%>" type="video/mp4">
 			</video>
+			<p class="number-TWO">Number 2 is right beneath the water's surface, the warm shallows of success, one stroke away from breaking the surface and.. <br>
+			</p>
 		</div>
 	</div>
 
@@ -61,7 +63,7 @@
 	</div>
 
 	<div class="section" id="six">
-		<video autoplay loop class="secondbgvid" poster="tank.jpg">
+		<video autoplay loop preload="auto" class="secondbgvid" poster="tank.jpg">
 		  <source src="http://s3.amazonaws.com/plunge/<%=@tank.key %>" type="video/mp4">
 		</video>
 		<div class="small-12 columns">
@@ -80,7 +82,7 @@
 			<img src="http://s3.amazonaws.com/plunge/<%=@chill.key %>" class="small-6 columns calmcraig">
 		</div>
 		<audio loop id="audio1">
-		 <source src="../assets/audio/craigshortX.mp3" type="audio/mp3">
+		 <source src="http://s3.amazonaws.com/plunge/<%= @craig_audio.key %>" type="audio/mp3">
 		</audio>
 	</div>
 

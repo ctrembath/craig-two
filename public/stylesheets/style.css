@@ -34,6 +34,7 @@ p#craigintank {
 img#sharkgif{
   opacity: .8;
   z-index: -100;
+  padding-top: 6.5rem;
 }
 
 img#craigcontemplates{
@@ -87,6 +88,16 @@ div#five {
 
 p.fourthParagraph {
   margin-top: -20rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: .5;
+}
+
+p.number-TWO {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  bottom: 0;
+  text-shadow: #000000 0 0 35px, #000000 5px 5px 19px;  
 }
 
 video#bgvid { 

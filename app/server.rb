@@ -22,12 +22,13 @@ end
 
 def title_name
 	@tank = get_asset('TankShort.mp4')
-	@jelly = get_asset('jellypumporange.mp4')
+	@jelly = get_asset('jelly.mp4')
 	@cliff = get_asset('cliff.mp4')
 	@risenfall = get_asset('risefall.mp4')
 	@chill = get_asset('calmcraig.png')
 	@craig_audio = get_asset('craigshortX.mp3')
 	@bling = get_asset('shark.gif')
+	@sharkswim = get_asset('giphy.gif')
 end
 
 def all_files
