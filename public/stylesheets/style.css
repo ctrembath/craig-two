@@ -1,6 +1,12 @@
 *, h1, h2{
-	text-align: center;
+  text-align: center;
   font-family: 'Roboto', sans-serif;
+}
+
+.standard {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 #title {
@@ -19,13 +25,6 @@ div.intro {
   z-index: 100;
   width: 37rem;
 }
-
-p.introparagraph{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 1.50rem;
-}
-
 
 p#craigintank {
   font-size: 2rem;
@@ -88,15 +87,12 @@ div#five {
 
 p.fourthParagraph {
   margin-top: -20rem;
-  font-family: "Roboto", sans-serif;
   letter-spacing: .5;
 }
 
 p.number-TWO {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
+  bottom:10;
   color: white;
-  bottom: 0;
   text-shadow: #000000 0 0 35px, #000000 5px 5px 19px;  
 }
 
@@ -135,7 +131,6 @@ video#bgvid {
 }
 
 #afterfuck {
-  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   color: #ffffff;
   text-shadow: #000000 0 0 35px, #000000 5px 5px 19px;
@@ -158,9 +153,11 @@ video.secondbgvid {
   position: absolute;
 }
 
-.calm-SIX {
-  font-size: 1.4rem;
-}
+.iphone {
+  z-index: -100;
+  position: absolute;
+  margin-top: -5rem;
+  }
 
 .calmcraig {
   position: absolute;
@@ -172,5 +169,11 @@ video.secondbgvid {
   font: 3rem Helvetica, Sans-Serif;
   letter-spacing: -5px;
   color: rgba(0,0,255,0.5); 
+}
+
+div#seven {
+  background: url(http://s3.amazonaws.com/plunge/hammerhead.gif);
+  background-color: #cccccc;
+
 }
 

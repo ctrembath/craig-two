@@ -9,7 +9,7 @@
 				</h2>
 			</header> 
 			<video autoplay loop poster="tank.jpg" id="bgvid">
-			  <source src="http://s3.amazonaws.com/plunge/<%=@tank.key %>" type="video/mp4">
+			  <source src="http://s3.amazonaws.com/plunge/<%=@tank %>" type="video/mp4">
 		 	</video>
 		</section>
 	</div>
@@ -17,25 +17,25 @@
 	<div class="row section" id="two">
 		<div class="intro">
 			<p id="craigintank">Craig stared into the tank. </p>
-			<p class="introparagraph">
+			<p class="standard introparagraph">
 				A Bluegrey Carpetshark wriggled it's way across the base, coming right up to the glass before making a sharp turn to the right.<br>
 				It wasn't a particularly interesting shark. Still, it was the only shark that had bothered to come up and say hello. Craig sidestepped over to the far wall to read the information about the Bluegrey Carpetshark.
 			</p>
 		</div>
-			<img id="sharkgif" src="http://s3.amazonaws.com/plunge/<%= @sharkswim.key %>" />
+			<img id="sharkgif" src="http://s3.amazonaws.com/plunge/<%= @sharkswim %>" />
 			<img id="craigcontemplates" src="../assets/images/intro.png" />
 	</div>
 
 	<div class="row section wall" id="three">
 		<img id="wallsign" src="../assets/images/glassSign.png" />
 		<div class="grow pic">
-			<img id="blingshark" src="http://s3.amazonaws.com/plunge/<%= @bling.key%>" />
+			<img id="blingshark" src="http://s3.amazonaws.com/plunge/<%= @bling %>" />
 		</div>
 	</div>
 
 	<div class="section" id="four">
 		<div id="para4Box">
-			<p class="fourthParagraph">
+			<p class="standard fourthParagraph">
 				Sounds familiar, Craig thought. Takes one to know one.<br>
 				He kicked the bottom of the tank suddenly, thoughts of 1999 poured in from all around.<br>
 				It wasn't as if he was a 'bottom-dweller', number 2 in the Official UK Charts is certainly not bottom-dwelling. <br>
@@ -44,9 +44,11 @@
 		</div>
 		<div id="snow">
 			<video width="220" height="180" id="videoFour" class="video4">
-				  <source src="http://s3.amazonaws.com/plunge/<%= @cliff.key%>" type="video/mp4">
+				  <source src="http://s3.amazonaws.com/plunge/<%= @cliff %>" type="video/mp4">
 			</video>
-			<p class="number-TWO">Number 2 is right beneath the water's surface, the warm shallows of success, one stroke away from breaking the surface and.. <br>
+			<p class="standard number-TWO">Number 2 is right beneath the water's surface, <br>
+			the warm shallows of success, <br>
+			one stroke away from breaking the surface and.. <br>
 			</p>
 		</div>
 	</div>
@@ -54,8 +56,8 @@
 
 	<div class="section" id="five">
 		<div id="snow2">
-			<p class="fcliff blink_me" id="fuck">FUCK CLIFF RICHARD!</p>
-			<p class="fcliff" id="afterfuck">
+			<p class="standard blink_me" id="fuck">FUCK CLIFF RICHARD!</p>
+			<p class="standard" id="afterfuck">
 				How the fuck did 'The Millenium Prayer' shit get the number one spot? <br>
 				Whose fucking idea was it to release Re-rewind at Christmastime?
 			</p>
@@ -64,11 +66,11 @@
 
 	<div class="section" id="six">
 		<video autoplay loop preload="auto" class="secondbgvid" poster="tank.jpg">
-		  <source src="http://s3.amazonaws.com/plunge/<%=@tank.key %>" type="video/mp4">
+		  <source src="http://s3.amazonaws.com/plunge/<%=@tank %>" type="video/mp4">
 		</video>
 		<div class="small-12 columns">
 			<div class="small-6 columns">
-				<p class="calm-SIX">
+				<p class="standard">
 					Craig took deep and steadying breathes to calm himself.<br>
 					He stared back into the aquatic tank and muttered his secret mantra to himself under his breath. <br>
 					"Monday..." Craig crooned, "took her for a drink on Tuesday",
@@ -79,32 +81,73 @@
 						<span class="chillSpan">chilled, chill, calm.</span>
 				</p>
 			</div>
-			<img src="http://s3.amazonaws.com/plunge/<%=@chill.key %>" class="small-6 columns calmcraig">
+			<img src="http://s3.amazonaws.com/plunge/<%=@chill %>" class="small-6 columns calmcraig">
 		</div>
 		<audio loop id="audio1">
-		 <source src="http://s3.amazonaws.com/plunge/<%= @craig_audio.key %>" type="audio/mp3">
+		 <source src="http://s3.amazonaws.com/plunge/<%= @craig_audio %>" type="audio/mp3">
 		</audio>
 	</div>
 
-	<div class="row section" id="seven">
-		Craig pressed his hands against the glass of the tank and raised his eyes to the surface. A great Hammerhead shark haloed darkly up above. His therapist had said it was important to remember one's achievements, but equally important not to live in the past. Craig had never properly considered that not only was the hammerhead shark's head the shape of a hammer, but that it's flesh was the colour of dull metal, as if it's body had been used. 
+	<div class="section" id="seven">
+		<p class="standard">
+			Craig pressed his hands against the glass of the tank and raised his eyes to the surface. <br>
+			A great Hammerhead shark haloed darkly up above. <br>
+			His therapist had said it was important to remember one's achievements, but equally important not to live in the past.<br>
+			Craig had never properly considered that not only was the hammerhead shark's head the shape of a hammer, <br>
+			but that it's flesh was the colour of dull metal, as if it's body had been used. 
+		</p>
 	</div>
 	
 	<div class="row section" id="eight">
+		<p class="standard">
 		Craig moved over to a tank of jellyfish, watching them undulate he was glad there was a sheet of high strength acrylic plastic between them. His hands were itching to plunge themselves into the brightly coloured domes and frills. This impulse tasted like the sweet pain of childhood.
+		</p>
 	</div>
 
 	<div class="row section" id="nine">
-		Craig took out his iphone and scrolled through his artists hovering over his on name. He selected a song and let it play out as he watched the creatures expand and contract.<br>
-		<video width="320" height="240" id="videoNine" class="video9">
-		  <source src="http://s3.amazonaws.com/plunge/<%= @risenfall.key%>" type="video/mp4">
-		</video>
+		<p class="standard">
+			Craig took out his iphone and scrolled through his artists hovering over his on name. He selected a song and let it play out as he watched the creatures expand and contract.<br>
+		</p>
+		<img src="http://s3.amazonaws.com/plunge/<%= @iphone %>" class="iphone">
+		<div id="owl-example" class="owl-carousel">
+			<div>
+			<img src="http://s3.amazonaws.com/plunge/<%= @one %>">
+					<audio id="audio2">
+					 <source src="http://s3.amazonaws.com/plunge/<%= @craig_audio %>" type="audio/mp3">
+					</audio>
+			</div>
+
+			<img src="http://s3.amazonaws.com/plunge/<%= @two %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @three %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @four %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @five %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @six %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @eight %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @nine %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @eleven %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @twelve %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @thirteen %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @fourteen %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @fifteen %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @sixteen %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @seventeen %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @eighteen %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @nineteen %>">
+			<img src="http://s3.amazonaws.com/plunge/<%= @twenty %>">
+		</div>
+
+
+
 	</div>
 	
 	<div class="section" id="ten">
-		<p class="calm-SIX">Jellyfish have been expanding and contracting for over 500 million years, Craig thought. Craig wondered how many times 7-days could play in 500 million years. 
+		<video width="320" height="240" id="videoNine" class="video9">
+		  <source src="http://s3.amazonaws.com/plunge/<%= @risenfall %>" type="video/mp4">
+		</video>
+		<p class="standard">
+			Jellyfish have been expanding and contracting for over 500 million years, Craig thought. Craig wondered how many times 7-days could play in 500 million years. 
 		<video autoplay loop preload="auto" class="secondbgvid" width="320" height="240">
-		  <source src="http://s3.amazonaws.com/plunge/<%=@jelly.key %>" type="video/mp4">
+		  <source src="http://s3.amazonaws.com/plunge/<%=@jelly %>" type="video/mp4">
 		</video>
 	 </div>
 </div>

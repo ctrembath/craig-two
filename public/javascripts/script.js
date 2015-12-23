@@ -56,4 +56,13 @@ $(document).ready(function () {
 		$('#audio1').get(0).pause();
 	});
 
+	$("#owl-example").owlCarousel({
+	    singleItem : true,
+	});
+
+	function play(){
+       var audio = document.getElementById("audio2");
+       audio.play();
+                 }
+
 });
