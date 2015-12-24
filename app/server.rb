@@ -31,7 +31,7 @@ def title_name
 	@bling = get_asset('shark.gif').key
 	@sharkswim = get_asset('giphy.gif').key
 	@hammerhead = get_asset('hammerhead.gif').key
-	@iphone = get_asset('iphonewcraig.png').key
+	@iphone = ('iphoneduo.png')
 end
 
 def craigs_albums

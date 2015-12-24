@@ -33,14 +33,6 @@ $(document).ready(function () {
 	});
 
 	$(function (){
-		$('#ten').on('mouseenter', function() {
-			$('.video9').each(function() {
-		    $(this).get(0).pause();
-			});
-		})
-	});
-
-	$(function (){
 		$('#eight').on('mouseenter', function() {
 			$('.video9').each(function() {
 		    $(this).get(0).pause();

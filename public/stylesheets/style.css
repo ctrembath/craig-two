@@ -140,6 +140,7 @@ video#bgvid {
 
 video.secondbgvid { 
   min-width: 100%;
+  padding-bottom: 2rem;
   min-height: 100%;
   width: auto;
   height: auto;
@@ -153,11 +154,6 @@ video.secondbgvid {
   position: absolute;
 }
 
-.iphone {
-  z-index: -100;
-  position: absolute;
-  margin-top: -5rem;
-  }
 
 .calmcraig {
   position: absolute;
@@ -175,5 +171,30 @@ div#seven {
   background: url(http://s3.amazonaws.com/plunge/hammerhead.gif);
   background-color: #cccccc;
 
+}
+
+div#nine {
+  background: url(http://s3.amazonaws.com/plunge/iphoneduo.png);
+}
+
+p.nine-paragraph {
+  font-size: 2rem;
+  font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: horizontal-offset vertical-offset blur color;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  padding-left: 5rem;
+  padding-right: 5rem;
+  color: white;
+  font-weight: 300;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+#owl-example {
+  position: fixed;
+  opacity: 1;
+  display: block;
+  margin-left: 20rem;
 }
 
