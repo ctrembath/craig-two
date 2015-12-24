@@ -140,7 +140,6 @@ video#bgvid {
 
 video.secondbgvid { 
   min-width: 100%;
-  padding-bottom: 2rem;
   min-height: 100%;
   width: auto;
   height: auto;
@@ -154,6 +153,37 @@ video.secondbgvid {
   position: absolute;
 }
 
+div#eight {
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background: #051d1a;
+
+}
+
+canvas {
+  margin:0 auto;
+  float: right;
+  height: 100%;
+  width: 100%;
+  margin-top: -12rem;
+  background: #051d1a;
+  position: absolute;
+}
+
+.paragraph-eight {
+  position: absolute;
+  width: 80%;
+  color: #FAEBD7;
+  margin-top: 8rem;
+  margin-left: 4rem;
+
+}
+
+.jellygif{
+  margin-left: 2rem;
+  margin-top: -2rem;
+}
 
 .calmcraig {
   position: absolute;
@@ -198,3 +228,13 @@ p.nine-paragraph {
   margin-left: 20rem;
 }
 
+p.ten-paragraph {
+  color: white;
+  bottom: 0;
+  position: absolute;
+}
+
+.jelly_two {
+  opacity: .8;
+  height: 15rem;
+}

@@ -65,7 +65,7 @@
 	</div>
 
 	<div class="section" id="six">
-		<video autoplay loop preload="auto" class="secondbgvid" poster="tank.jpg">
+		<video autoplay loop class="secondbgvid" poster="tank.jpg">
 		  <source src="http://s3.amazonaws.com/plunge/<%=@tank %>" type="video/mp4">
 		</video>
 		<div class="small-12 columns">
@@ -98,10 +98,12 @@
 		</p>
 	</div>
 	
-	<div class="row section" id="eight">
-		<p class="standard">
-		Craig moved over to a tank of jellyfish, watching them undulate he was glad there was a sheet of high strength acrylic plastic between them. His hands were itching to plunge themselves into the brightly coloured domes and frills. This impulse tasted like the sweet pain of childhood.
-		</p>
+	<div class="section" id="eight">
+		<canvas id="c">		</canvas>
+			<img src="http://s3.amazonaws.com/plunge/<%=@jellygif %>" class="small-6 columns jellygif">
+			<p class="standard paragraph-eight">
+			Craig moved over to a tank of jellyfish, watching them undulate he was glad there was a sheet of high strength acrylic plastic between them. His hands were itching to plunge themselves into the brightly coloured domes and frills. This impulse tasted like the sweet pain of childhood.
+			</p>
 	</div>
 
 	<div class="section" id="nine">
@@ -142,13 +144,12 @@
 	</div>
 	
 	<div class="section" id="ten">
-		<video width="320" height="240" id="videoNine" class="video9 small-6 columns">
+		<video width="320" height="240" id="videoNine" class="video9 secondbgvid">
 		  <source src="http://s3.amazonaws.com/plunge/<%= @risenfall %>" type="video/mp4">
 		</video>
-		<p class="standard small-6 columns">
-			Jellyfish have been expanding and contracting for over 500 million years, Craig thought. Craig wondered how many times 7-days could play in 500 million years. 
-		<video autoplay loop preload="auto" class="secondbgvid">
-		  <source src="http://s3.amazonaws.com/plunge/<%=@jelly %>" type="video/mp4">
-		</video>
+		<p class="standard ten-paragraph">
+			Jellyfish have been expanding and contracting for over 500 million years, Craig thought. Craig wondered how many times 7-days could play in 500 million years.<br> 
+		</p>
+		<img src="http://s3.amazonaws.com/plunge/<%= @jelly_gif_two %>" class="jelly_two">
 	 </div>
 </div>

@@ -23,7 +23,6 @@ end
 
 def title_name
 	@tank = get_asset('TankShort.mp4').key
-	@jelly = get_asset('jelly.mp4').key
 	@cliff = get_asset('cliff.mp4').key
 	@risenfall = get_asset('risefall.mp4').key
 	@chill = get_asset('calmcraig.png').key
@@ -31,7 +30,9 @@ def title_name
 	@bling = get_asset('shark.gif').key
 	@sharkswim = get_asset('giphy.gif').key
 	@hammerhead = get_asset('hammerhead.gif').key
-	@iphone = ('iphoneduo.png')
+	@jellygif = get_asset('jelly.gif').key
+	@jelly_gif_two = get_asset('jelly2.gif').key
+
 end
 
 def craigs_albums
