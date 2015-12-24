@@ -235,6 +235,7 @@ p.ten-paragraph {
 }
 
 .jelly_two {
-  opacity: .8;
+  opacity: .5;
+  float: right;
   height: 15rem;
 }
