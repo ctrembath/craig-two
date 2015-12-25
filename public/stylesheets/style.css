@@ -158,7 +158,6 @@ div#eight {
   padding: 0;
   overflow:hidden;
   background: #051d1a;
-
 }
 
 canvas {
@@ -177,7 +176,6 @@ canvas {
   color: #FAEBD7;
   margin-top: 8rem;
   margin-left: 4rem;
-
 }
 
 .jellygif{
@@ -200,7 +198,6 @@ canvas {
 div#seven {
   background: url(http://s3.amazonaws.com/plunge/hammerhead.gif);
   background-color: #cccccc;
-
 }
 
 p.paragraph-seven {

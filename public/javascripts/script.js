@@ -1,18 +1,18 @@
 $(document).ready(function () {
 
 	// AUdio Play
-$('#one').on('mouseenter', function(){
-		$('#audio1').get(0).play();
-		$('#audio1').volume = 0.2;
-	});
+// $('#one').on('mouseenter', function(){
+// 		$('#audio1').get(0).play();
+// 		$('#audio1').volume = 0.2;
+// 	});
 
-	$('#four').on('mouseenter', function(){
-		$('#audio1').get(0).pause();
-	});
+// 	$('#four').on('mouseenter', function(){
+// 		$('#audio1').get(0).pause();
+// 	});
 
-	$('#seven').on('mouseenter', function(){
-		$('#audio1').get(0).pause();
-	});
+// 	$('#seven').on('mouseenter', function(){
+// 		$('#audio1').get(0).pause();
+// 	});
 
 
 	// Video Play + Pause
@@ -70,10 +70,5 @@ $('#one').on('mouseenter', function(){
 
 	$("#owl-example").owlCarousel({
 		singleItem : true,
-		navigation : true,
-		 navigationText: [
-      "<i class='icon-chevron-left icon-white'><</i>",
-      "<i class='icon-chevron-right icon-white'>></i>"
-      ],
 	});
 });
