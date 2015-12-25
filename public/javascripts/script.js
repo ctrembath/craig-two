@@ -70,6 +70,10 @@ $('#one').on('mouseenter', function(){
 
 	$("#owl-example").owlCarousel({
 		singleItem : true,
-		navigation : true
+		navigation : true,
+		 navigationText: [
+      "<i class='icon-chevron-left icon-white'><</i>",
+      "<i class='icon-chevron-right icon-white'>></i>"
+      ],
 	});
 });
