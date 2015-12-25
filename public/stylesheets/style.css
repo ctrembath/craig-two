@@ -203,6 +203,12 @@ div#seven {
 
 }
 
+p.paragraph-seven {
+  text-shadow: 0px 2px #000000;
+  width: 80%;
+  float: right;
+}
+
 div#nine {
   background: url(http://s3.amazonaws.com/plunge/iphoneduo.png);
 }
