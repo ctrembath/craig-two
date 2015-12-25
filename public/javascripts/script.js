@@ -1,5 +1,20 @@
 $(document).ready(function () {
 
+	// AUdio Play
+$('#one').on('mouseenter', function(){
+		$('#audio2').get(0).play();
+		$(audio).volume = 0.2;
+	});
+
+	$('#four').on('mouseenter', function(){
+		$('#audio2').get(0).pause();
+	});
+
+	$('#seven').on('mouseenter', function(){
+		$('#audio2').get(0).pause();
+	});
+
+
 	// Video Play + Pause
 	
 
@@ -10,7 +25,7 @@ $(document).ready(function () {
 	});
 
 	$(function (){
-		$('#five').on('mouseenter', function() {
+		$('#six').on('mouseenter', function() {
 			$('.video4').each(function() {
 		    $(this).get(0).pause();
 			});
@@ -41,20 +56,25 @@ $(document).ready(function () {
 	});
 
 	$('#six').on('mouseenter', function(){
-		$('#audio1').get(0).pause();
+		$('#audio2').get(0).play();
+		$('#audio2').volume = 0.2;
 	});
 
-	$('#six').on('mouseenter', function(){
-		$('#audio1').get(0).pause();
+	$('#five').on('mouseenter', function(){
+		$('#audio2').get(0).pause();
+	});
+
+	$('#seven').on('mouseenter', function(){
+		$('#audio2').get(0).pause();
 	});
 
 	$("#owl-example").owlCarousel({
-	    singleItem : true,
+		singleItem : true,
+		navigation : true
 	});
 
 	function play(){
-       var audio = document.getElementById("audio2");
-       audio.play();
-                 }
-
+   var audio = document.getElementByTagName("audio");
+	   audio.play();
+   }
 });

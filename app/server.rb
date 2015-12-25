@@ -32,6 +32,7 @@ def title_name
 	@hammerhead = get_asset('hammerhead.gif').key
 	@jellygif = get_asset('jelly.gif').key
 	@jelly_gif_two = get_asset('jelly2.gif').key
+	@aquarium_audio = get_asset('aquarium.mp3').key
 
 end
 

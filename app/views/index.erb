@@ -11,6 +11,9 @@
 			<video autoplay loop poster="tank.jpg" id="bgvid">
 			  <source src="http://s3.amazonaws.com/plunge/<%=@tank %>" type="video/mp4">
 		 	</video>
+			 <audio autoplay loop id="audio1">
+				 <source src="http://s3.amazonaws.com/plunge/<%= @quarium_audio %>" type="audio/mp3">
+			</audio>
 		</section>
 	</div>
 
@@ -83,7 +86,7 @@
 			</div>
 			<img src="http://s3.amazonaws.com/plunge/<%=@chill %>" class="small-6 columns calmcraig">
 		</div>
-		<audio loop id="audio1">
+		<audio loop id="audio2">
 		 <source src="http://s3.amazonaws.com/plunge/<%= @craig_audio %>" type="audio/mp3">
 		</audio>
 	</div>
@@ -147,10 +150,15 @@
 		<video width="320" height="240" id="videoNine" class="video9 secondbgvid">
 		  <source src="http://s3.amazonaws.com/plunge/<%= @risenfall %>" type="video/mp4">
 		</video>
+		<p class="standard ten-paragraph-2">
+			Jellyfish have been expanding and contracting for over 500 million years, Craig thought.
+		</p>
 		<p class="standard ten-paragraph">
-			Jellyfish have been expanding and contracting for over 500 million years, Craig thought.<br>
 			<br> Craig wondered how many times 7-days could play in 500 million years.<br> 
 		</p>
 		<img src="http://s3.amazonaws.com/plunge/<%= @jelly_gif_two %>" class="jelly_two">
+		<img src="http://s3.amazonaws.com/plunge/<%= @jelly_gif_two %>" class="jelly_two" id="#three">
+		<img src="http://s3.amazonaws.com/plunge/<%= @jelly_gif_two %>" class="jelly_two" id="#four">
+		<img src="http://s3.amazonaws.com/plunge/<%= @jelly_gif_two %>" class="jelly_two" id="#five">
 	 </div>
 </div>
