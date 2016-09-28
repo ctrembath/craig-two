@@ -17,7 +17,6 @@ $(document).ready(function () {
 
 	// Video Play + Pause
 	
-
 	$(function (){
 		$('#four').hover(function() {
 			$('#videoFour').get(0).play();
