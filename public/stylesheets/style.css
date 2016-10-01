@@ -19,6 +19,7 @@
   color: white;
   opacity: .6;
 }
+
 #names {
   font-weight: 200;
   text-transform: uppercase;
@@ -55,7 +56,6 @@ img#craigcontemplates{
   z-index: 0;
   position: relative;
 }
-
 
 section {
   margin-top: 5rem;
@@ -94,12 +94,6 @@ p.fourthParagraph {
   letter-spacing: .5;
 }
 
-p.number-TWO {
-  bottom:10;
-  color: white;
-  text-shadow: #000000 0 0 35px, #000000 5px 5px 19px;  
-}
-
 video#bgvid { 
   position: fixed;
   top: 50%;
@@ -113,10 +107,6 @@ video#bgvid {
   transform: translateX(-50%) translateY(-50%);
   background: url(tank.jpg) no-repeat;
   background-size: cover; 
-}
-
-.fcliff {
-  font-family: "Roboto", sans-serif;
 }
 
 #fuck {
@@ -175,10 +165,7 @@ canvas {
 
 .paragraph-eight {
   position: absolute;
-  width: 80%;
   color: #FAEBD7;
-  margin-top: 8rem;
-  margin-left: 4rem;
 }
 
 .jellygif{
@@ -203,30 +190,16 @@ div#seven {
   background-color: #cccccc;
 }
 
-p.paragraph-seven {
-  text-shadow: 0px 2px #000000;
-  width: 80%;
-  float: right;
-}
-
 div#nine {
   padding-bottom: 10%;
   background: url(http://s3.amazonaws.com/plunge/iphoneduo.png);
 }
 
 p.nine-paragraph {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   text-shadow: horizontal-offset vertical-offset blur color;
   color: white;
   font-weight: 300;
-  margin-left: 4rem;
-}
-
-#owl-example {
-  position: fixed;
-  opacity: 1;
-  display: block;
-  margin-left: 20rem;
 }
 
 p.ten-paragraph {
