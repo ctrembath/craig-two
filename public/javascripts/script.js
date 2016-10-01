@@ -16,12 +16,7 @@ $(document).ready(function () {
 
 
 	// Video Play + Pause
-	
-	$(function (){
-		$('#four').hover(function() {
-			$('#videoFour').get(0).play();
-		})
-	});
+
 
 	$(function (){
 		$('#six').on('mouseenter', function() {
@@ -52,19 +47,6 @@ $(document).ready(function () {
 		    $(this).get(0).pause();
 			});
 		})
-	});
-
-
-	$('#six').on('mouseenter', function(){
-		$("#audio2").get(0).play();
-	});
-
-	$('#five').on('mouseenter', function(){
-		$("#audio2").get(0).pause();
-	});
-
-	$('#seven').on('mouseenter', function(){
-		$("#audio2").get(0).pause();
 	});
 
 	$("#owl-example").owlCarousel({

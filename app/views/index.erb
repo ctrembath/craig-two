@@ -11,21 +11,23 @@
 			<video autoplay loop poster="tank.jpg" id="bgvid">
 			  <source src="http://s3.amazonaws.com/plunge/<%=@tank %>" type="video/mp4">
 		 	</video>
-			 <audio autoplay loop id="audio1">
+			 <audio loop id="audio1">
 				 <source src="http://s3.amazonaws.com/plunge/<%= @aquarium_audio %>" type="audio/mp3">
 			</audio>
 		</section>
 	</div>
 
 	<div class="row section" id="two">
+		<p id="craigintank">Craig stared into the tank. </p>
 		<div class="intro">
-			<p id="craigintank">Craig stared into the tank. </p>
 			<p class="standard introparagraph">
 				A Bluegrey Carpetshark wriggled it's way across the base, coming right up to the glass before making a sharp turn to the right.<br>
+			</p>
+			<img id="sharkgif" src="http://s3.amazonaws.com/plunge/<%= @sharkswim %>" />
+			<p class="standard introparagraph">
 				It wasn't a particularly interesting shark. Still, it was the only shark that had bothered to come up and say hello. Craig sidestepped over to the far wall to read the information about the Bluegrey Carpetshark.
 			</p>
 		</div>
-			<img id="sharkgif" src="http://s3.amazonaws.com/plunge/<%= @sharkswim %>" />
 	</div>
 
 	<div class="row section wall" id="three">
@@ -41,16 +43,9 @@
 				Sounds familiar, Craig thought. Takes one to know one.<br>
 				He kicked the bottom of the tank suddenly, thoughts of 1999 poured in from all around.<br>
 				It wasn't as if he was a 'bottom-dweller', number 2 in the Official UK Charts is certainly not bottom-dwelling. <br>
-			</p>
-			</p>
-		</div>
-		<div id="snow">
-			<video width="220" height="180" id="videoFour" class="video4">
-				  <source src="http://s3.amazonaws.com/plunge/<%= @cliff %>" type="video/mp4">
-			</video>
-			<p class="standard number-TWO">Number 2 is right beneath the water's surface, <br>
-			the warm shallows of success, <br>
-			one stroke away from breaking the surface and.. <br>
+				Number 2 is right beneath the water's surface, <br>
+				the warm shallows of success, <br>
+				one stroke away from breaking the surface and.. <br>
 			</p>
 		</div>
 	</div>
@@ -58,7 +53,10 @@
 
 	<div class="section" id="five">
 		<div id="snow2">
-			<p class="standard blink_me" id="fuck">FUCK CLIFF RICHARD!</p>
+			<a href="https://www.youtube.com/watch?v=cA5QJS3paAo" target="_blank">
+				<p class="standard blink_me" id="fuck">FUCK CLIFF RICHARD!</p>
+			</a>
+
 			<p class="standard" id="afterfuck">
 				How the fuck did 'The Millenium Prayer' shit get the number one spot? <br>
 				Whose fucking idea was it to release Re-rewind at Christmastime?
@@ -85,9 +83,6 @@
 			</div>
 			<img src="http://s3.amazonaws.com/plunge/<%=@chill %>" class="small-6 columns calmcraig">
 		</div>
-		<audio loop id="audio2">
-		 <source src="http://s3.amazonaws.com/plunge/<%= @craig_audio %>" type="audio/mp3">
-		</audio>
 	</div>
 
 	<div class="section" id="seven">
@@ -114,47 +109,17 @@
 			He selected a song and let it play out as he watched the creatures expand and contract.<br>
 		</p>
 
-		<div id="owl-example" class="owl-carousel small-6 columns">
-			<div>
-			<img src="http://s3.amazonaws.com/plunge/<%= @one %>">
-					<audio id="audio2">
-					 <source src="http://s3.amazonaws.com/plunge/<%= @craig_audio %>" type="audio/mp3">
-					</audio>
-			</div>
-
-			<img src="http://s3.amazonaws.com/plunge/<%= @two %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @three %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @four %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @five %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @six %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @eight %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @nine %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @eleven %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @twelve %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @thirteen %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @fourteen %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @fifteen %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @sixteen %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @seventeen %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @eighteen %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @nineteen %>">
-			<img src="http://s3.amazonaws.com/plunge/<%= @twenty %>">
-		</div>
-
-
-
 	</div>
 	
 	<div class="section" id="ten">
-		<video width="320" height="240" id="videoNine" class="video9 secondbgvid">
-		  <source src="http://s3.amazonaws.com/plunge/<%= @risenfall %>" type="video/mp4">
-		</video>
-		<p class="standard ten-paragraph-2">
+
+		<p class="standard ten-paragraph">
 			Jellyfish have been expanding and contracting for over 500 million years, Craig thought.
 		</p>
 		<p class="standard ten-paragraph">
-			<br> Craig wondered how many times 7-days could play in 500 million years.<br> 
+			<br> How many times could 7-days play in 500 million years?<br> 
 		</p>
+
 		<img src="http://s3.amazonaws.com/plunge/<%= @jelly_gif_two %>" class="jelly_two">
 		<img src="http://s3.amazonaws.com/plunge/<%= @jelly_gif_two %>" class="jelly_two" id="#three">
 		<img src="http://s3.amazonaws.com/plunge/<%= @jelly_gif_two %>" class="jelly_two" id="#four">
