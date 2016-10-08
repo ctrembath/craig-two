@@ -2,6 +2,7 @@
 
 	#title {
 	  font-size: 4rem;
+	  letter-spacing: 1rem;
 	}
 
 	div.intro {
@@ -14,5 +15,11 @@
 	p#craigintank {
 	  font-size: 1.5rem;
 	}
+
+	#fuck {
+		font-size: 4rem;
+	}
+
+
 
 }
